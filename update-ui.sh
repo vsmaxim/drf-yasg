@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ev
-npm update
+npm install
 
 cp node_modules/redoc/bundles/redoc.standalone.js src/drf_yasg/static/drf-yasg/redoc/redoc.min.js
 wget https://rebilly.github.io/ReDoc/releases/v1.x.x/redoc.min.js -O src/drf_yasg/static/drf-yasg/redoc-old/redoc.min.js
